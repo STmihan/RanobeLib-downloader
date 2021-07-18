@@ -1,0 +1,90 @@
+html{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+body{
+    background-color: #2ea3e754;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.up{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    width: 600px;
+    max-width: 600px;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid 00000052;
+    border-radius: 10px;
+    box-shadow: 0 0 100px #00000052;
+    background-color: white;
+}
+
+span{
+    display: flex;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+a{
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border-color: #00000052;
+    background-color: white;
+    transition: all .2s linear;
+}
+
+a:hover{
+    background-color: #2ea3e754;
+}
+
+textarea{
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: #00000052;
+    resize: none;
+    padding: 10px;
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+
+input:hover::-moz-placeholder          {opacity: 0.5; transition: opacity 0.3s ease;}
+input:hover::-webkit-input-placeholder {opacity: 0.5; transition: opacity 0.3s ease;}
+input:hover:-ms-input-placeholder      {opacity: 0.5; transition: opacity 0.3s ease;}
+input:hover:-moz-placeholder           {opacity: 0.5; transition: opacity 0.3s ease;}
+input:hover                            {border-color: #2ea3e754; transition: color 0.3s ease;}
+
+
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+

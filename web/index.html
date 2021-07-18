@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon.png">
+    <script type="text/javascript" src="eel.js"></script>
+    <title>RanobeLib Downloader</title>
+</head>
+<body>
+    <div class="container">
+        <div class="up">
+            <div class="url">
+                <span>Введите URL:</span>
+                <input id="url" type="text" placeholder="https://ranobelib.me/Solo-leveling">
+            </div>
+            <div class="chapterNumbers">
+                <span>Введите количество глав:</span>
+                <input id="chapterNumbers" type="text" placeholder="1">
+            </div>
+            <div class="outputFolder">
+                <span>Введите путь сохранения:</span>
+                <input id="outputFolder" type="text" placeholder="Solo leveling">
+            </div>
+            <div class="outputName">
+                <span>Введите название фалов:</span>
+                <input id="outputName" type="text" placeholder="Solo leveling">
+            </div>
+            <div class="firstChapter">
+                <span>Введите с какой главы качать:</span>
+                <input id="firstChapter" type="text" placeholder="1">
+            </div>
+            <div class="volumeNumber">
+                <span>Введите номер тома:</span>
+                <input id="volumeNumber" type="text" placeholder="1">
+            </div>
+        </div>
+        <button id="btn">Скачать</button>
+        <textarea name="console" id="console" cols="30" rows="10" readonly>Нажмите "Скачать"</textarea>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
